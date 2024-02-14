@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+      <link rel="stylesheet" href="style.css">
+      <title>EMPLOYE DATA-3</title>
+</head>
+
+<body>
+      <div class="container">
+
+            <header>
+
+                  <!-- <div class="filterEntries">
+                        <div class="entries">
+                              show <select name="" id="table_size">
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>
+                              </select> entries
+                        </div>
+
+                        <div class="filter">
+                              <label for="search">Search</label>
+                              <input type="search" name="search" id="search" placeholder="Enter name/city/post">
+                        </div>
+                  </div> -->
+
+                  <div class="addMemberBtn">
+                        <button>New member</button>
+                  </div>
+
+            </header>
+
+            <table border="1">
+                  <thead>
+                        <tr class="heading">
+                              <th>Sl NO.</th>
+                              <th>Picture</th>
+                              <th>Full Name</th>
+                              <th>Age</th>
+                              <th>City</th>
+                              <th>Position</th>
+                              <th>Salary</th>
+                              <th>Start Date</th>
+                              <th>Email</th>
+                              <th>Phone</th>
+                              <th>Action</th>
+                        </tr>
+                  </thead>
+                  <tbody class="tableData">
+<!-- 
+                        <tr>
+                              <td class="empty" colspan="11" align="center">No data available in table</td>
+                        </tr> -->
+
+                        <!-- <tr>
+                              <td>1</td>
+                              <td><img src="img/profile_Img.png" alt="img_Error" width="50" height="50"></td>
+                              <td>Shreekanth Maurya</td>
+                              <td>24</td>
+                              <td>Ballari</td>
+                              <td>Web Dev</td>
+                              <td> &#8377;50K</td>
+                              <td>11/04/2024</td>
+                              <td>shreekanth@gmail.com</td>
+                              <td>8095851853</td>
+                              <td>
+                                    <button><i class="fa-regular fa-eye"></i></button>
+                                    <button><i class="fa-regular fa-pen-to-square"></i></button>
+                                    <button><i class="fa-regular fa-trash-can"></i></button>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>1</td>
+                              <td><img src="img/profile_Img.png" alt="img_Error" width="50" height="50"></td>
+                              <td>Shreekanth Maurya</td>
+                              <td>24</td>
+                              <td>Ballari</td>
+                              <td>Web Dev</td>
+                              <td> &#8377;50K</td>
+                              <td>11/04/2024</td>
+                              <td>shreekanth@gmail.com</td>
+                              <td>8095851853</td>
+                              <td>
+                                    <button><i class="fa-regular fa-eye"></i></button>
+                                    <button><i class="fa-regular fa-pen-to-square"></i></button>
+                                    <button><i class="fa-regular fa-trash-can"></i></button>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>1</td>
+                              <td><img src="img/profile_Img.png" alt="img_Error" width="50" height="50"></td>
+                              <td>Shreekanth Maurya</td>
+                              <td>24</td>
+                              <td>Ballari</td>
+                              <td>Web Dev</td>
+                              <td> &#8377;50K</td>
+                              <td>11/04/2024</td>
+                              <td>shreekanth@gmail.com</td>
+                              <td>8095851853</td>
+                              <td>
+                                    <button><i class="fa-regular fa-eye"></i></button>
+                                    <button><i class="fa-regular fa-pen-to-square"></i></button>
+                                    <button><i class="fa-regular fa-trash-can"></i></button>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>1</td>
+                              <td><img src="img/profile_Img.png" alt="img_Error" width="50" height="50"></td>
+                              <td>Shreekanth Maurya</td>
+                              <td>24</td>
+                              <td>Ballari</td>
+                              <td>Web Dev</td>
+                              <td> &#8377;50K</td>
+                              <td>11/04/2024</td>
+                              <td>shreekanth@gmail.com</td>
+                              <td>8095851853</td>
+                              <td>
+                                    <button><i class="fa-regular fa-eye"></i></button>
+                                    <button><i class="fa-regular fa-pen-to-square"></i></button>
+                                    <button><i class="fa-regular fa-trash-can"></i></button>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>1</td>
+                              <td><img src="img/profile_Img.png" alt="img_Error" width="50" height="50"></td>
+                              <td>Shreekanth Maurya</td>
+                              <td>24</td>
+                              <td>Ballari</td>
+                              <td>Web Dev</td>
+                              <td> &#8377;50K</td>
+                              <td>11/04/2024</td>
+                              <td>shreekanth@gmail.com</td>
+                              <td>8095851853</td>
+                              <td>
+                                    <button><i class="fa-regular fa-eye"></i></button>
+                                    <button><i class="fa-regular fa-pen-to-square"></i></button>
+                                    <button><i class="fa-regular fa-trash-can"></i></button>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>1</td>
+                              <td><img src="img/profile_Img.png" alt="img_Error" width="50" height="50"></td>
+                              <td>Shreekanth Maurya</td>
+                              <td>24</td>
+                              <td>Ballari</td>
+                              <td>Web Dev</td>
+                              <td> &#8377;50K</td>
+                              <td>11/04/2024</td>
+                              <td>shreekanth@gmail.com</td>
+                              <td>8095851853</td>
+                              <td>
+                                    <button><i class="fa-regular fa-eye"></i></button>
+                                    <button><i class="fa-regular fa-pen-to-square"></i></button>
+                                    <button><i class="fa-regular fa-trash-can"></i></button>
+                              </td>
+                        </tr> -->
+
+                  </tbody>
+            </table>
+
+            <!-- <footer>
+                  <span>Showing 1 to 10 of 50 entries</span>
+                  <div class="pagination">
+                        <button>Prev</button>
+                        <button class="active">1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>4</button>
+                        <button>5</button>
+                        <button>Next</button>
+                  </div>
+            </footer> -->
+      </div>
+
+      <!-- Popup Form -->
+
+      <div class="dark_bg">
+            <div class="popup">
+                  <header>
+                        <h2 class="modalTitle">Fill the Form</h2>
+                        <button class="closeBtn">&times</button>
+                  </header>
+
+                  <div class="body">
+
+                        <form  id="myForm">
+                              <div class="imgHolder">
+                                    <label for="uploadimg" class="upload">
+                                          <input type="file" name="file" id="uploadimg" class="picture">
+                                          <i class="fa-solid fa-plus"></i>
+                                    </label>
+                                    <img src="./img/Profile_img-2.png" alt="profile_img_Error" id="profilePic" width="150" height="150"
+                                          class="img">
+                              </div>
+                              <div class="inputFieldContainer">
+                                    <div class="nameField">
+                                          <div class="form_control">
+                                                <label for="fName">First Name</label>
+                                                <input type="text" name="" id="fName">
+                                          </div>
+                                          <div class="form_control">
+                                                <label for="lName">Last Name</label>
+                                                <input type="text" name="" id="lName">
+                                          </div>
+                                    </div>
+
+                                    <div class="ageCityfield">
+                                          <div class="form_control">
+                                                <label for="age">Age</label>
+                                                <input type="number" name="" id="age">
+                                          </div>
+                                          <div class="form_control">
+                                                <label for="city">City</label>
+                                                <input type="text" name="" id="city">
+                                          </div>
+                                    </div>
+
+                                    <div class="postSalary">
+                                          <div class="form_control">
+                                                <label for="position">Position</label>
+                                                <input type="text" name="" id="position">
+                                          </div>
+                                          <div class="form_control">
+                                                <label for="salary">Salary</label>
+                                                <input type="text" name="" id="salary">
+                                          </div>
+                                    </div>
+
+                                    <div class="form_control">
+                                          <label for="sDate">Start Date</label>
+                                          <input type="date" name="" id="sDate">
+                                    </div>
+                                    <div class="form_control">
+                                          <label for="email">E-mail</label>
+                                          <input type="email" name="" id="email">
+                                    </div>
+                                    <div class="form_control">
+                                          <label for="phone">Phone</label>
+                                          <input type="number" name="" id="phone">
+                                    </div>
+                              </div>
+                        </form>
+                  </div>
+
+                  <footer class="popupFooter">
+                        <button class="submitBtn" type="submit" form="myForm">Submit</button>
+                  </footer>
+            </div>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+
+</html>
